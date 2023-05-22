@@ -1,0 +1,179 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../assets/fonts/Montserrat-Regular.ttf');
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+    font-size: var(--main-font-size);
+    background: var(--main-background);
+    color: var(--main-color-text);
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    padding: 17px 0;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+.logo {
+    
+    
+}
+.logo > img {
+    width: 200;
+    height: 32px;
+}
+.nav {
+
+    flex-grow: 1;
+    
+    
+}
+.menu_item {
+    
+}
+.menu_item > a {
+    text-decoration: none;
+}
+.buttons {
+    
+    
+}
+.buttons__btn {
+    
+    min-width: 100px;
+    padding: 8px 0;
+}
+.buttons__btn:first-child {
+    
+}
+/* -------------- Features Lesson_10--------------------------- */
+.features__title {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto 50px auto;
+    font-size: 2.25em;
+    line-height: 1.22;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.feature {
+    max-width: 270px;
+    min-width: 200px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.btn a {
+    padding: 13px 40px;
+    background: #FF9900;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.benefits {
+    width: 525px;
+    height: 532px;
+    
+}
+.img {
+   width: 100%;
+   height: 573px;
+}
+
+.description-img img {
+    height: 570px;
+    width: 100%;
+    max-width: 520px;
+}
+
+.column {
+    flex: 1;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-row img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.description-product-manager {
+    padding-top: 80px;
+}
+
+.description-marketers {
+    padding-top: 50px;
+}
+
+.footer {
+    border-top: 1px solid #979797;
+    padding-top: 40px;
+}
+
+.footer img {
+    margin-top: 15px;
+}
+
+.footer form input {
+    width: 100%;
+    height: 40px;
+}
+
+.footer form button {
+    width: 150px;
+    height: 40px;
+    background-color: #FF9900;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 800;
+    margin-top: 15px;
+    border: none
+}
